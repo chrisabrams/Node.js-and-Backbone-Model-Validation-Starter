@@ -1,0 +1,24 @@
+{
+  "author": "Chris Abrams",
+  "name": "node-backbone-validation-starter",
+  "title": "node-backbone-validation-starter",
+  "description": "node-backbone-validation-starter",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "main": "./server.js",
+  "dependencies": {
+    "backbone": "1.0.0",
+    "backbone-validation": "0.8.0",
+    "underscore": "1.4.4"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.2"
+  }
+}
