@@ -5,15 +5,7 @@ validation = require 'backbone-validation'
 _.extend Backbone.Model.prototype, validation.mixin
 
 # Create a sample model
-MyModel = Backbone.Model.extend
-
-  validation:
-    name:
-      required: true
-    email:
-      msg: 'Please enter a valid email address.'
-      pattern: 'email'
-      required: true
+MyModel = require './models/mymodel'
 
 # Create an instance to validate
 myTestModel = new MyModel
